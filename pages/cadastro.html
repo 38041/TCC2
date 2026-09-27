@@ -31,59 +31,46 @@
 
             <div class="login-content">
 
-                <h1>Cadastrar</h1>
+               <h1>Cadastrar</h1>
 
-                <form>
+<form action="https://tcc-back-end-seven.vercel.app/cadastro" method="POST">
 
-                    <!-- EMAIL -->
-                    <div class="input-group">
+  <div class="input-group">
+    <input
+      type="text"
+      name="nome"
+           placeholder="Nome"
+      required
+    >
+  </div>
 
-                        <input
-                            type="email"
-                            placeholder="Email"
-                            required
-                        >
+  <div class="input-group">
+    <input
+      type="email"
+      name="email"
+      placeholder="Email"
+      required
+    >
+  </div>
 
-                    </div>
+  <div class="input-group">
+    <input
+      type="password"
+      name="senha"
+      placeholder="Senha"
+      required
+    >
+  </div>
 
+  <button type="submit">
+    CADASTRAR
+  </button>
 
-                    <!-- SENHA -->
-                    <div class="input-group">
+  <a href="login.html" class="register">
+    VOLTAR
+  </a>
 
-                        <input
-                            type="password"
-                            placeholder="Senha"
-                            required
-                        >
-
-                    </div>
-
-
-                    <!-- REPETIR SENHA -->
-                    <div class="input-group">
-
-                        <input
-                            type="password"
-                            placeholder="Repetir Senha"
-                            required
-                        >
-
-                    </div>
-
-
-                    <!-- ENTRAR -->
-                    <button type="submit">
-                        ENTRAR
-                    </button>
-
-
-                    <!-- VOLTAR -->
-                    <a href="login.html" class="register">
-                        VOLTAR
-                    </a>
-
-                </form>
-
+</form>
             </div>
 
         </section>
