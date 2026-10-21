@@ -379,11 +379,15 @@ button:hover {
   object-fit: contain;
 }
 
-/* BOTÃO VOLTAR */
+/* BOTÃO VOLTAR NO CANTO SUPERIOR ESQUERDO */
 
 .btn-voltar {
-  width: 100%;
-  height: 53px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 3;
+
+  padding: 12px 25px;
 
   display: flex;
   justify-content: center;
@@ -400,16 +404,10 @@ button:hover {
   font-weight: bold;
   letter-spacing: 2px;
 
-  cursor: pointer;
   transition: 0.3s;
-
-  margin-top: 12px;
 }
 
 .btn-voltar:hover {
-  background: white;
-  color: #1642a1;
+  background: #4f9cf9;
   transform: translateY(-2px);
 }
-
-
