@@ -6,12 +6,9 @@ body {
 }
 #logo{
     background: url("../img/geral/andermaq.png");
-   background-color: #0757a6;
-    height: 150px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   bwidth: 230px;
+    height: auto;
+    display: block;
 }
 /*alinhamento da menu*/
 nav{
